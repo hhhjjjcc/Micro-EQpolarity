@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/93087931-43ab-40b3-adcd-30da23eeec14)# Micro-EQpolarity
+# Micro-EQpolarity
 **Micro-EQpolarity** is Jiachen Hu's code repository for polarity picking and focal mechanism analyses in Canada.
 
 <div style="text-align: center;">
