@@ -80,6 +80,14 @@ This section demonstrates the application of transfer learning using EQpolarity 
   <p><b>Figure 8:</b> Learning curves of Micro-EQpolarity trained on ToC2ME data, showing (a) loss and (b) accuracy for both training and validation sets with a threshold of 0.5. The best model is the one from epoch 9. Performance evaluation includes (c) precision-recall curves (d) ROC curves on ToC2ME test set.</p>
 </div>
 
+- Accuracy on Microseismic Events（ToC2ME）
+Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb)
+The models are as follows
+1. Blue: [model/SCSN/best_weigths_Binary_SCSN_Best.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/SCSN/best_weigths_Binary_SCSN_Best.h5)
+2. Orange: [model/Texas/best_weigths_Binary_Texas_Transfer10.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/Texas/best_weigths_Binary_Texas_Transfer10.h5)
+3. Red: [model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5)
+![Accuracy on Microseismic Events（ToC2ME）](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/Model_Comparison_on_Microseismic_Events.png)
+
 ---
 
 ## Gallery
