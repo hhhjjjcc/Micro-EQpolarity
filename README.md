@@ -1,6 +1,8 @@
 # Micro-EQpolarity
 **Micro-EQpolarity** is Jiachen Hu's code repository for polarity picking and focal mechanism analyses in Canada.
-<img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/toc2me_combinedV7.jpeg" width="50%">
+<div style="text-align: center;">
+  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/toc2me_combinedV7.jpeg" width="70%">
+</div>
 
 ## Overview
 This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main components of this repository are:
