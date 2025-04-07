@@ -1,5 +1,6 @@
 # Micro-EQpolarity
 **Micro-EQpolarity** is Jiachen Hu's code repository for polarity picking and focal mechanism analyses in Canada.
+![figure/toc2me_combinedV7.jpeg](https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/toc2me_combinedV7.jpeg)
 
 ## Overview
 This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main components of this repository are:
@@ -17,7 +18,7 @@ This section includes the process for solving focal mechanisms using the SKHASH 
 ## 2. Focal Mechanisms Analyses
 
 ### Description
-This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, waveform display, magnitude distribution, and FMS classification.This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
+This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, magnitude distribution, and FMS classification.
 
 ---
 
@@ -39,7 +40,7 @@ This section demonstrates the application of transfer learning using EQpolarity 
 ---
 
 ## Gallery
-Here are examples of the outputs:
+Here are the important figures shown in the paper/poster.
 
 ### Accuracy on Microseismic Events（ToC2ME）
 - Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb](https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/CCT_ToC2ME_TransferLearning_20240926_For_Test_update20241013.ipynb)
