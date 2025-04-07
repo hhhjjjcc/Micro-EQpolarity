@@ -7,7 +7,7 @@
 </div>
 
 ## Overview
-This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main components of this repository are:
+This repository provides a comprehensive set of tools and workflows for working with the ToC2Me dataset. The main sections of this repository are:
 
 ## 1. HASH Workflow
 
