@@ -16,7 +16,7 @@ This repository provides a comprehensive set of tools and workflows for working 
 This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
 
 <div style="text-align: center;">
-  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg" width="70%">
+  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg" width="50%">
   <p><b>Figure 2:</b> Workflow for calculating focal mechanisms of microseismic events using transfer learning to adapt the EQpolarity model to microseismic P-wave first-motion polarity determination.</p>
 </div>
 
