@@ -7,14 +7,17 @@ This repository provides a comprehensive set of tools and workflows for working 
 ## 1. HASH Workflow
 
 ### Description
+
 This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
-Workflow from Data Preparation to Focal Mechanism Inversion [figure/workflow_transfer_learning_V7.jpeg](https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg)
+
+![Workflow from Data Preparation to Focal Mechanism Inversion](https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg)
+
 ---
 
 ## 2. Focal Mechanisms Analyses
 
 ### Description
-This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, waveform display, magnitude distribution, and FMS classification.
+This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, waveform display, magnitude distribution, and FMS classification.This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
 
 ---
 
