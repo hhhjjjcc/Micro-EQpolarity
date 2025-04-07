@@ -13,7 +13,7 @@ This repository provides a comprehensive set of tools and workflows for working 
 
 ### Description
 
-This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic Micro-polarity picking.
+This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic Micro-EQpolarity picking.
 
 <div style="text-align: center;">
   <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg" width="70%">
