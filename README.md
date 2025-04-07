@@ -85,7 +85,7 @@ Accuracy for each model can be obtained from [Code_ToC2ME/EQpolarity_Transfer_Le
 The models are as follows
 1. Blue: [model/SCSN/best_weigths_Binary_SCSN_Best.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/SCSN/best_weigths_Binary_SCSN_Best.h5)
 2. Orange: [model/Texas/best_weigths_Binary_Texas_Transfer10.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/Texas/best_weigths_Binary_Texas_Transfer10.h5)
-3. Red: [model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5)
+3. Red(Micro-EQpolarity): [model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5](https://github.com/chenyk1990/jiachenToc2Me/blob/main/model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5)
 <div style="text-align: center;">
   <img src="https://github.com/chenyk1990/jiachenToc2Me/blob/main/Code_ToC2ME/EQpolarity_Transfer_Learning/Model_Comparison_on_Microseismic_Events.png" width="70%">
   <p><b>Figure 9:</b> Accuracy on the ToC2ME test dataset.</p>
