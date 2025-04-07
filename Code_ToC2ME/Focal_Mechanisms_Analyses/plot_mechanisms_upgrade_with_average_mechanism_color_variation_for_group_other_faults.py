@@ -36,7 +36,6 @@ print(f"Total number of events read: {len(events)}")
 # Prepare for plotting
 fig, ax = plt.subplots(figsize=(6, 6))  # Set figure size to 6x6 inches
 
-# 添加黑色圆圈作为底图
 circle = Circle((0, 0), 1, fill=False, color='black', linewidth=1.0, zorder=1)
 ax.add_patch(circle)
 
