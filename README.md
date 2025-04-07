@@ -2,7 +2,7 @@
 **Micro-EQpolarity** is Jiachen Hu's code repository for polarity picking and focal mechanism analyses in Canada.
 
 <div style="text-align: center;">
-  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/toc2me_combinedV7.jpeg" width="50%">
+  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/toc2me_combinedV7.jpeg" width="70%">
   <p><b>Figure 1:</b> (a) Regional map of the ToC2ME study area (red box) in Alberta. (b) Map of the ToC2ME monitoring configuration with 69 stations, recording 21,619 events in ML -2.19 to 3.21.</p>
 </div>
 
