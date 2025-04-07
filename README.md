@@ -27,6 +27,11 @@ This section includes the process for solving focal mechanisms using the SKHASH 
 ### Description
 This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, magnitude distribution, and FMS classification.
 
+<div style="text-align: center;">
+  <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/Station_Locations_with_Focal_Mechanisms_testing_data_2558events_gray.png" width="70%">
+  <p><b>Figure 3:</b> Map view of high-quality focal mechanism solutions in ToC2ME.</p>
+</div>
+
 ---
 
 ## 3. Plot Waveforms on Focal Mechanisms
