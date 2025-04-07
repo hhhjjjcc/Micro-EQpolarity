@@ -8,13 +8,13 @@ This repository provides a comprehensive set of tools and workflows for working 
 
 ### Description
 This section includes the process for solving focal mechanisms using the SKHASH on the ToC2Me dataset. Users can choose to either manually pick polarities or utilize the EQpolarity model for automatic polarity picking.
-
+Workflow from Data Preparation to Focal Mechanism Inversion [figure/workflow_transfer_learning_V7.jpeg](https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/workflow_transfer_learning_V7.jpeg)
 ---
 
 ## 2. Focal Mechanisms Analyses
 
 ### Description
-This section includes a set of scripts that allow users to visualize the spatial distribution of the focal mechanisms as well as their strike, dip, and rake characteristics within the ToC2Me dataset.
+This section includes a series of scripts showing analyses in the ToC2ME area based on FMSs, including spatial distribution, waveform display, magnitude distribution, and FMS classification.
 
 ---
 
@@ -114,3 +114,4 @@ conda install openpyxl
 ## Reference
 1. Chen Y, Saad OM, Savvaidis A, Zhang F, Chen Y, Huang D, Li H, Zanjani FA, 2024, Deep learning for P-wave first-motion polarity determination and its application in focal mechanism inversion. IEEE Transactions on Geoscience and Remote Sensing, 62, 5917411.
 2. Skoumal, R.J., Hardebeck, J.L., Shearer, P.M. (2024). SKHASH: A Python package for computing earthquake focal mechanisms. Seismological Research Letters, 95(4), 2519-2526. https://doi.org/10.1785/0220230329
+3. Fangxue Zhang, Ruijia Wang, Yunfeng Chen, and Yangkang Chen. Spatiotemporal variations in earthquake triggering mechanisms during multistage hydraulic fracturing in western Canada. Journal of Geophysical Research: Solid Earth, 127, 08 2022. doi: 10.1029/2022JB024744.
