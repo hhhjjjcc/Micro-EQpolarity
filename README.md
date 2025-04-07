@@ -133,7 +133,7 @@ This section focuses on two clusters: NSw in the western part of the study area,
 ## Data
 1. ToC2ME all waveforms: https://doi.org/10.5281/zenodo.14185578
 
-2、ToC2ME 2519 FMSs waveforms: https://doi.org/10.5281/zenodo.15165318
+2. ToC2ME 2519 FMSs waveforms: https://doi.org/10.5281/zenodo.15165318
 
 3. Texas data: Google Drive link: https://drive.google.com/drive/folders/1WXVB8ytNB4bOaZ97oq6OmMRyAEg95trp?usp=sharing
 
