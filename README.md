@@ -69,7 +69,7 @@ This section provides a script that enable users to plot waveforms directly with
 ### Description
 This section demonstrates the application of transfer learning using EQpolarity models on the ToC2Me dataset.
 
-- <div style="text-align: center;">
+<div style="text-align: center;">
   <img src="https://github.com/hhhjjjcc/Micro-EQpolarity/blob/main/figure/Eqpolarity_workflowV5.jpeg" width="70%">
   <p><b>Figure 7:</b> Architecture of the EQpolarity neural network for P-wave first-motion polarity determination.</p>
 </div>
