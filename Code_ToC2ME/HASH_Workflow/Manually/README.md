@@ -33,7 +33,7 @@ This folder provides a MATLAB GUI for manually picking P-wave first-motion polar
 
 ## Output Results
 
-- Results are saved in the `./OUT` folder.
+- Results are saved in the `matlab_GUI_v0.5/output/` folder.
 - The `matlab_GUI_v0.5/output/` folder contains a runnable example for event `20161104064824.680`.
 - You can use these outputs to run SKHASH. See the `../Automatically_EQpolarity/README.md` workflow for the downstream steps.
 - The `matlab_GUI_v0.5/sp_ratio/energy_cyf.py` helper is a legacy Texas-data utility; its example file paths are relative placeholders — point them to local waveform, catalog, station, and model files before use.

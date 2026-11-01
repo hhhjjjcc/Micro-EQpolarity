@@ -28,7 +28,7 @@ $outfolder_plots
 ToC2ME_demo/OUT
 
 $vmodel_paths  # whitespace/newline delimited list of paths to the velocity models
-ToC2ME_demo/vz.north
+ToC2ME_demo/vz_ToC2ME_20251107.north
 
 $npolmin       # mininum number of polarity data (e.g., 8)
 8

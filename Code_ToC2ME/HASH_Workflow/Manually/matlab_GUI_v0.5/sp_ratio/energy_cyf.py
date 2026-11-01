@@ -129,7 +129,7 @@ sacfiles = glob.glob(os.path.join(ddirwaveform,'*SAC'))
 stainfo=[".".join(sacfile.split('/')[-1].split('.')[0:2]) for sacfile in sacfiles]
 all_sta=set(stainfo)
 for k,sta in enumerate(all_sta):
-    if stainfo.count(sta)==3:#筛选出三分量
+    if stainfo.count(sta)==3:# keep only stations with three components
         
         st = read(ddirwaveform+'/'+sta+'*SAC')
         # Count the number of stations and write them on the first line of the file
@@ -147,7 +147,7 @@ for k,sta in enumerate(all_sta):
 
         dataE = st[0].data
         dataN = st[1].data
-        dataZ = st[2].data#顺序不一定正确，保证st[2]对应Z即可
+        dataZ = st[2].data# order is not guaranteed; ensure st[2] is the Z component
 
         if 't1' in tr.stats.sac:
             tp = tr.stats.sac.t1

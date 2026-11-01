@@ -6,7 +6,7 @@ This folder provides the automatic workflow for solving focal mechanisms with SK
 
 ## Folder Contents
 
-- `run_eqpolarity_ToC2ME.ipynb`: loads the trained Micro-EQpolarity weights with a relative path (`../../../model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5`), reads waveforms listed in `../all_data_demo/catalog_sorted_ToC2ME.txt`, and writes one `.polarity` file per event into `./result_ToC2ME_eqpolarity/`. Station coordinates are read from SAC headers in this workflow.
+- `run_eqpolarity_ToC2ME.ipynb`: loads the trained Micro-EQpolarity weights with a relative path (`../../../model/Toc2me_20240819_Transfer_Learning_21916data/best_weigths_Binary_Toc2me_Transfer_SCSN_20241013_21916data_90.h5`), reads waveforms listed in `../all_data_demo/catalog_sorted_ToC2ME.txt`, and writes one `.polarity` file per event into `./result_ToC2ME_eqpolarity/`. Station coordinates are read from SAC headers in this workflow (full header precision). A same-named demo in `../../EQpolarity_Transfer_Learning/` instead reads coordinates from `../all_data_demo/stationlist_ToC2ME.txt`, so the two example `.polarity` sets differ only in station-coordinate rounding.
 - `generate_catalog.py`: lists event folders in `../all_data_demo` (directories only) and writes `../all_data_demo/catalog_sorted_ToC2ME.txt`.
 - `filter_polarity_average_pol.py`: reads `./result_ToC2ME_eqpolarity` and keeps confident picks with `abs(polarity - 0.5) >= 0.45` (i.e. polarities near 0 or 1) into `./results_ToC2ME_eqpolarity_filtered_pol_average/`.
 - `generate_pol_hash_for_independent_test.m`: converts `.polarity` files into `.pol.hash` files using SAC data in `../all_data_demo`.
@@ -55,9 +55,10 @@ Follow the instructions in the `SKHASH` folder `README.md` to solve focal mechan
 - `generate_eq_catalog.py`: generates the `SKHASH.eq_catalog.csv` control-file input from the `.pol.hash` files.
 - `generate_pol_csv.py`: generates the `SKHASH.pol.csv` control-file input from the `.pol.hash` files.
 
-Run the following command in the terminal:
+Run the following commands from the SKHASH package directory (the control file uses paths relative to that directory):
 
 ```bash
+cd SKHASH/SKHASH
 python3 SKHASH.py ToC2ME_demo/control_file_skhash.txt
 ```
 
