@@ -58,17 +58,15 @@ The models are as follows:
 ## Data
 1. ToC2ME all waveforms: https://doi.org/10.5281/zenodo.14185578
 
-2. ToC2ME 2519 FMSs waveforms: https://doi.org/10.5281/zenodo.15165318
+2. Texas data: Google Drive link: https://drive.google.com/drive/folders/1WXVB8ytNB4bOaZ97oq6OmMRyAEg95trp?usp=sharing
 
-3. Texas data: Google Drive link: https://drive.google.com/drive/folders/1WXVB8ytNB4bOaZ97oq6OmMRyAEg95trp?usp=sharing
+3. Texas_22980 data: https://doi.org/10.5281/zenodo.13901460
 
-4. Texas_22980 data: https://doi.org/10.5281/zenodo.13901460
+4. ToC2ME_Testing_data: in the `data/ToC2ME_Testing_data_for_model_20241022` folder (`datall.npy`, `polall.npy`).
 
-5. ToC2ME_Testing_data: in the `data/ToC2ME_Testing_data_for_model_20241022` folder (`datall.npy`, `polall.npy`).
+5. Final ToC2ME focal mechanism catalog: `data/Data_Set_S1.txt` (columns: `origin_time evla evlo depth strike dip rake evid mag`; 2526 data rows plus one header row). This is the complete, final FMS catalog for the ToC2ME study.
 
-6. Final ToC2ME focal mechanism catalog: `data/Data_Set_S1.txt` (columns: `origin_time evla evlo depth strike dip rake evid mag`; 2526 data rows plus one header row). This is the complete, final FMS catalog for the ToC2ME study.
-
-7. Demo inference data: `Code_ToC2ME/HASH_Workflow/all_data_demo/` (3 sample events, `catalog_sorted_ToC2ME.txt`, and `stationlist_ToC2ME.txt` with columns `station_id network longitude latitude`).
+6. Demo inference data: `Code_ToC2ME/HASH_Workflow/all_data_demo/` (3 sample events, `catalog_sorted_ToC2ME.txt`, and `stationlist_ToC2ME.txt` with columns `station_id network longitude latitude`).
 
 ---
 
